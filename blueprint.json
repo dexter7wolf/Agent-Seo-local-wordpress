@@ -1,0 +1,31 @@
+{
+  "generator": "Blueprint Compiler v2.1",
+  "exportedAt": "2026-02-23T21:39:40.635Z",
+  "ideTarget": "antigravity",
+  "project": "my-agent-framework",
+  "domain": "saas",
+  "config": {
+    "domain": "saas",
+    "projectName": "my-agent-framework",
+    "mission": "An autonomous local SEO agentic workflow powered by Ollama/LM Studio, utilizing agentic browser automation (Browser-use/Playwright) for end-to-end WordPress orchestration. Features multi-source data synthesis from Google Docs (intelligent article parsing and image extraction) and Google Sheets (SEO metadata mapping), 1:1 textual fidelity protocols to preserve original tone, and automated Yoast Local SEO field injection. Supports sequential multi-article batch processing, secure local web navigation for draft creation, and intelligent image-to-alt-text synchronization within the WordPress Media Library.",
+    "langConvo": "it",
+    "langCode": "en",
+    "stack": {
+      "framework": "Next.js 15",
+      "api": "tRPC",
+      "orm": "Drizzle + PostgreSQL",
+      "auth": "NextAuth.js",
+      "billing": "Stripe",
+      "hosting": "Vercel"
+    },
+    "customDomain": "",
+    "customStack": "",
+    "priorities": [
+      "scalability",
+      "performance",
+      "security",
+      "maintainability"
+    ],
+    "rigor": "balanced"
+  }
+}

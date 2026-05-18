@@ -1,0 +1,52 @@
+{
+  "name": "agent-seo-local-wordpress",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "@auth/drizzle-adapter": "^1.4.2",
+    "@tanstack/react-query": "^5.51.1",
+    "@trpc/client": "^11.0.0-rc.446",
+    "@trpc/next": "^11.0.0-rc.446",
+    "@trpc/react-query": "^11.0.0-rc.446",
+    "@trpc/server": "^11.0.0-rc.446",
+    "crypto-js": "^4.2.0",
+    "drizzle-orm": "^0.33.0",
+    "googleapis": "^171.4.0",
+    "lucide-react": "^0.424.0",
+    "next": "15.1.0",
+    "next-auth": "5.0.0-beta.25",
+    "pino": "^9.3.2",
+    "postgres": "^3.4.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@testing-library/react": "^16.0.0",
+    "@types/node": "^20.14.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "drizzle-kit": "^0.24.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "15.1.0",
+    "jsdom": "^24.1.1",
+    "playwright": "^1.45.3",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.4"
+  }
+}
